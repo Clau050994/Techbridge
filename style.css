@@ -53,8 +53,8 @@ body {
 
 /* Class selector for header */
 .header-container {
-  background-color: #968dc4;
-  color: white;
+  background-color: #ffffff;
+  color: #a73999;
   text-align: right;
   padding: 50px;
   padding-top: 50px;
@@ -139,18 +139,43 @@ body {
   /* Add border radius for rounded corners */
 }
 
+
 .footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: #f8f7f8;
-  color: black;
+  background-color: #a73999;
+  /* Background color */
+  color: #fff;
+  /* Text color */
+  padding: 0px 0px;
+  /* Padding for spacing */
   text-align: center;
-  padding: 1px 0;
-  font-size: 16px;
+   
+}
+
+
+.footer h4 {
+  font-size: 18px;
 
 }
+
+
+.footer a {
+  color: #fff;
+  /* Link text color */
+   text-decoration: none; */
+  /* Remove underlines */
+
+  /* Add spacing between links */
+  height: 0px;
+  Adjust the height as needed 
+}
+
+
+Change link color on hover 
+.footer a:hover {
+  color: #007BFF;
+  /* Change to a different color on hover */
+}
+
 
 .navbar-container {
   display: flex;
@@ -165,7 +190,7 @@ body {
   top: 0;
   left: 0;
   margin-bottom: 40px;
-  background-color: #58bb58;
+  background-color: #bb58b8;
   box-sizing: border-box;
   width: 100%;
 
@@ -202,12 +227,9 @@ body {
 
 .flex-item {
   padding: 1px;
-  /* leaving it empty */
+
 }
 
-
-
-/* Part 2: Flexbox */
 
 /* General style rule set for flex container */
 .flex-container {
@@ -263,4 +285,42 @@ a:hover {
 a:active {
   color: orange;
   /* Link text color when active */
+}
+
+/* Add style to button */
+#theme-button {
+  background-color: #970292;
+  /* Background color */
+  color: #030202;
+  /* Text color */
+  border: 2px solid #007BFF;
+  /* Border color and thickness */
+  border-radius: 18px;
+  /* Rounded corners */
+  padding: 10px 20px;
+  /* Padding for better spacing */
+  font-size: 16px;
+  /* Font size */
+  cursor: pointer;
+  /* Hand cursor on hover */
+  font-family: "Arial", sans-serif;
+  /* Change the font */
+  border-style: dotted;
+  /* Dotted border style */
+  border-width: 2px;
+  /* Border width */
+}
+
+
+
+/* Customize Dark Mode Theme */
+.dark-mode {
+
+
+  background-color: #000000;
+  color: #ffffff;
+
+
+
+}
 }
